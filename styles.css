@@ -1,4 +1,4 @@
-/*Base Styles */
+/*Base */
 * {
     margin: 0;
     padding: 0;
@@ -373,4 +373,40 @@ body {
 .submit-btn:hover {
     background-color: #4E47FF;
 }
+/* Footer */
+.footer {
+    background-color: #f5f5f7;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-link {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
 
