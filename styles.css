@@ -248,4 +248,129 @@ body {
     font-size: 14px;
     color: #6b7280;
 }
+/* Focus Section */
+.focus-section {
+    background-color: #f5f5f7;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.focus-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.focus-subtitle {
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+
+.focus-btn {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 60px;
+}
+
+.focus-btn:hover {
+    background-color: #4E47FF;
+}
+
+.focus-image {
+    text-align: center;
+}
+
+.focus-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 48px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.contact-text h2 {
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.contact-form {
+    background-color: #f9fafb;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4E47FF;;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #4E47FF;
+}
 
